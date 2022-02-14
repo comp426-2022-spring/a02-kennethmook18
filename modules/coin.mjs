@@ -10,12 +10,12 @@
  * @returns {string} 
  * 
  * example: coinFlip()
- * returns: heads
+ * returns: heads | tails
  * 
  */
 
-function coinFlip() {
-
+export function coinFlip() {
+  return Math.random() > 0.5 ? ('heads') : ('tails');
 }
 
 /** Multiple coin flips
