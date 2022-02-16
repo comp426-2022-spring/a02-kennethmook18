@@ -37,7 +37,7 @@ export function coinFlip() {
     ]
  */
 
-function coinFlips(flips) {
+export function coinFlips(flips) {
 
 }
 
@@ -54,8 +54,17 @@ function coinFlips(flips) {
  * @returns {{ heads: number, tails: number }}
  */
 
-function countFlips(array) {
 
+function countFlips(array) {
+  heads_sum, tails_sum = 0;
+  for (item in array) {
+    if (item == "heads") {
+      heads_sum += 1
+    } else {
+      tails_sum += 1
+    }
+  }
+  return { heads: heads_sum, tails: tails_sum };
 }
 
 /** Flip a coin!
