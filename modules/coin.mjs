@@ -55,7 +55,7 @@ export function coinFlips(flips) {
  */
 
 
-function countFlips(array) {
+export function countFlips(array) {
   heads_sum, tails_sum = 0;
   for (item in array) {
     if (item == "heads") {
