@@ -1,3 +1,6 @@
+//added this comment to re-commit becuase something weird happened.
+var stuff = 0;
+
 import minimist from 'minimist';
 import { flipACoin } from './modules/coin.mjs';
 
