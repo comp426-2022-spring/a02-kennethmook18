@@ -39,9 +39,6 @@ export function coinFlip() {
 
 export function coinFlips(flips) {
   var tosses = []
-  if (flips == null) {
-    number = 1;
-  }
   for (let i = 0; i < flips; i++) {
     tosses[i] = coinFlip();
   }
