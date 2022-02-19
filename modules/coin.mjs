@@ -60,12 +60,12 @@ export function coinFlips(flips) {
 
 
 export function countFlips(array) {
-  var heads_sum = 0;
-  var tails_sum = 0;
+  let heads_sum = 0;
+  let tails_sum = 0;
   for (let i = 0; i < array.length; i++) {
     if (array[i] == 'heads') {
       heads_sum += 1;
-    } else {
+    } else if (array[i] == 'tails') {
       tails_sum += 1;
     }
   }

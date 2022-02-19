@@ -5,6 +5,6 @@ import { coinFlips, countFlips } from './modules/coin.mjs';
 
 const args = minimist(process.argv.slice(2))
 const flipNumber = args["number"] || 1
-var flips = coinFlips(flipNumber)
+let flips = coinFlips(flipNumber)
 console.log(flips)
 console.log(countFlips(flips))
