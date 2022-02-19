@@ -1,5 +1,5 @@
-// Import the coinFlips function from your coin.mjs file
 import minimist from 'minimist';
+// Import the coinFlips function from your coin.mjs file
 import { coinFlips, countFlips } from './modules/coin.mjs';
 // Call the coinFlips function and put the return into STDOUT
 

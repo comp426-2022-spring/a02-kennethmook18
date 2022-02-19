@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-kennethmook18/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-kennethmook18#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-kennethmook18#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
