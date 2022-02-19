@@ -69,6 +69,15 @@ export function countFlips(array) {
       tails_sum += 1;
     }
   }
+
+  if (heads_sum == 0 || tails_sum == 0) {
+    if (heads_sum == 0) {
+      return "{ tails: " + tails_sum + " }";
+    } else if (tails_sum == 0) {
+      return "{ heads: " + heads_sum + " }";
+    }
+  }
+  
   return {"heads": heads_sum, "tails": tails_sum };
 }
 
